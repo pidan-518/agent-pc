@@ -1,0 +1,88 @@
+@import "../../common/global.less";
+.relationships{
+  padding: 20px;
+  background: #ffffff;
+  min-width: 1200px;
+  .agentTitle{
+    margin-bottom: 40px;
+    .descriptions{
+      
+      .avatarbox{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        text-align: center;
+        img{
+          max-width: 30px;
+          // max-height: 30px;      
+        }
+      }
+      .ant-descriptions-title {
+        color: #393D49;
+        font-weight: 400;
+        font-size: 20px;
+
+        &::before {
+          content: '.';
+          width: 4px;
+          height: 21px;
+          background: #2761E7;
+          color: #2761E7;
+          margin-right: 10px;
+        }
+      }
+
+      .ant-descriptions-view {
+        border-radius: 4px;
+        background: #F5F5F5;
+        padding: 30px;
+      }
+      // .ant-descriptions{
+      //   .ant-descriptions-row{
+      //     img{
+      //       max-width: 30px;
+      //       max-height: 30px;
+      //     }
+      //   }
+      // }
+    }
+  }
+  .formList{
+    margin-bottom: 40px;
+    .form {
+      padding: 10px;
+      background: #F5F5F5;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .search-result-list {
+      margin-top: 30px;
+      .table {
+        .ant-table-thead>tr>th {
+          background: #F5F5F5;
+        }
+      }
+
+    }
+  }
+  .ant-form-item-label {
+    width: 90px;
+  }
+  .leve {
+    .ant-form-item-label {
+      width: 50px;
+    }
+  }
+  .name {
+    .ant-form-item-label {
+      width: 50px;
+    }
+  }
+  // .agentTime {
+  //   .ant-form-item-label {
+  //     width: 120px;
+  //   }
+  // }
+}

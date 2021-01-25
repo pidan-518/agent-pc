@@ -1,0 +1,77 @@
+@import '../../common/global.less';
+
+#changeequity {
+  background-color: #fff;
+  padding: 41px;
+
+  .header {
+    height: 24px;
+    overflow: hidden;
+
+    .icon {
+      width: 4px;
+      height: 21px;
+      margin-top: 1px;
+      margin-right: 8px;
+      background-color: #2761e7;
+      display: inline-block;
+    }
+
+    .headerName {
+      height: 24px;
+      line-height: 24px;
+      font-size: 20px;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+  .levelName {
+    margin-top: 32px;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .equityList {
+    margin-top: 27px;
+    margin-bottom: 24px;
+
+    .item {
+      width: 400px;
+      height: 25px;
+      margin-bottom: 24px;
+
+      .equity {
+        float: left;
+        width: auto;
+        min-width: 200px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+        color: #4f4f4f;
+      }
+
+      .btnView {
+        float: right;
+        height: 25px;
+        width: auto;
+        // margin-left: 20px;
+
+        .del_btn,
+        .edit_btn {
+          width: 60px;
+          padding: 0;
+          margin-right: 10px;
+
+          .del_icon,
+          .edit_icon {
+            line-height: 25px;
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

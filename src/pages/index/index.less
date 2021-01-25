@@ -1,0 +1,195 @@
+@import "../../common/global.less";
+
+.homecontext {
+  height: 100%;
+  width: 100%;
+  min-width: 1200px;
+  .surContext {
+    .contextHead{
+      display: flex; 
+      align-items: center;
+      margin-bottom: 24px;
+      .icon{
+        display: inline-block;
+        width: 4px;
+        height: 21px;
+        background: #2761E7;
+        margin-right: 10px;
+      }
+      .title{     
+        .maintitle{
+          font-family: Microsoft YaHei;
+          font-size: 20px;
+          color: #393D49;
+          font-weight: 400;
+        }
+        .Subtitle{        
+          font-size: 14px;
+          font-family: Microsoft YaHei;
+          font-weight: 400;
+          color: #787B8B;
+        }
+      }
+    }
+   
+    .amountmoney {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 30px;
+      
+      .commission {           
+        width: 25%; 
+        
+        .commissionItem{
+          text-align: center;
+          padding-top: 40px;
+          width: 80%;
+          height: 161px;
+        //   background-size:100% 100%;
+        // background-repeat:no-repeat;
+        // &:nth-child(1){
+        //   background-image:url('./static/TotalUsers.png') ;
+        // }  
+        // &:nth-child(2){
+        //   background-image:url('./static/newThisMonth.png') ;
+        // }  
+        // &:nth-child(3){
+        //   background-image:url('./static/numberOfGoods.png') ;
+        // }  
+        // &:nth-child(4){
+        //   background-image:url('./static/numberOfGoods.png') ;
+        // }  
+        // &:nth-child(5){
+        //   background-image:url('./static/numberOfGoods.png') ;
+        // }   
+          :first-child{
+            font-size: 14px;
+            color: #ffffff;
+          }
+          :last-child{
+            font-size: 28px;
+            font-weight: 400;
+            color:#ffffff
+          }
+        }
+      }
+    }
+
+    .variousData {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-around;
+      height: 200px;
+      .itemData {
+        width: 25%;
+        display: flex;
+        align-items: center; 
+       
+        .littleTitle{
+          color:#787B8B;
+          font-size: 14px;         
+          line-height: 19px; 
+          margin-left: 10px;
+        }
+        .num{
+          margin-left: 10px;
+          font-size: 26px;
+          color: #393D49;
+          line-height: 42px;
+        }
+      }
+    }
+  }
+
+  .eachBox{
+    width: 100%;
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items:baseline;
+      max-width: 1653px;
+      .title{
+        display: flex; 
+        align-items: center;
+        margin-bottom: 24px;
+        .titleIcon{
+          display: inline-block;
+          width: 4px;
+          height: 21px;
+          background: #2761E7;
+          margin-right: 10px;
+        }
+        .titlebox{
+          .mainTitle{
+            font-family: Microsoft YaHei;
+            font-size: 20px;          
+            color: #4F4F4F;
+            font-weight: 400;
+            margin-right: 10px;
+          }
+          .subTitle{                 
+            font-size: 14px;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+            color: #A4A4A4;
+          }
+        }    
+      }   
+      .query{
+        display: flex;
+        align-items: baseline;
+        .screenDate{
+          color: #787B8B;
+          font-size: 14px;
+          font-weight: 400;
+        }
+        .dateChoice{
+          height: 1px;
+          width: 268px;
+        }
+        .queryBtn{
+          width: 70px;
+          height: 31px;
+          cursor: pointer;
+          background: #2761E7;
+          text-align: center;
+          line-height: 31px;
+          color: #ffffff;
+          border-radius: 7px;
+          margin-left: 15px;
+        }
+      }
+     
+      .dateSele {
+        display: flex;
+        cursor:pointer;
+        .dateeve {
+          border: 1px solid #787B8B;
+          border-radius: 5px;
+          width: 69px;
+          height: 31px;      
+          line-height: 31px;
+          text-align: center;
+          color: #787B8B;
+          margin-left: 10px;
+          border-radius: 5px;
+        }
+        .dateeve-active{
+          background: #2761E7;
+          color: #ffffff;
+          border: 1px solid #2761E7;
+        }
+      }
+    }
+   .line{
+     border-bottom: 2px solid #80818883;
+     margin-bottom: 10px;
+    //  background: #787B8B;
+   }
+  }
+  #eacharts{
+    width: 100%;
+    height: 360px;
+  }
+}

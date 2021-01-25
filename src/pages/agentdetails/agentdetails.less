@@ -1,0 +1,185 @@
+@import "../../common/global.less";
+
+.agentDetails {
+  padding: 20px;
+  background: #ffffff;
+  min-width: 1200px;
+  .agentTitle {
+    .descriptions {
+      margin-bottom: 40px;
+      .avatarbox{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        text-align: center;
+        img{
+          max-width: 30px;
+          // max-height: 30px;      
+        }
+      }
+      .ant-descriptions-title {
+        color: #393D49;
+        font-weight: 400;
+        font-size: 20px;
+
+        &::before {
+          content: '.';
+          width: 4px;
+          height: 21px;
+          background: #2761E7;
+          color: #2761E7;
+          margin-right: 10px;
+        }
+      }
+
+      .ant-descriptions-view {
+        border-radius: 4px;
+        background: #F5F5F5;
+        padding: 30px;
+      }
+
+    }
+  }
+
+  .formList {
+    .form {
+      padding: 10px;
+      background: #F5F5F5;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .search-result-list {
+      margin-top: 30px;
+
+      .agentNumber {
+        color: #4F4F4F;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 12px;
+
+        .number {
+          display: flex;
+          cursor: pointer;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 19px;
+
+          .itemNumber {
+            border: 1px solid #A4A4A4;
+            border-radius: 3px;
+            width: 52px;
+            height: 31px;
+            line-height: 31px;
+            text-align: center;
+            margin-left: 8px;
+            border-radius: 5px;
+          }
+
+          .itemNumber-active {
+            background: #F41313;
+            color: #ffffff;
+            border: none;
+          }
+        }
+      }
+
+      .table {
+        .ant-table-cell {
+
+          // text-align: center;
+          .nickname {
+            .avatar {
+              margin: 0 auto;
+              width: 73px;
+              height: 73px;
+              // border: 1px solid gray;
+              // border-radius: 50%;
+              overflow: hidden;
+
+              img {
+                max-width: 73px;
+                max-height: 73px;
+              }
+            }
+          }
+
+          .action {
+            >div {
+              width: 120px;
+              height: 30px;
+              border-radius: 5px;
+              border: 1px solid #F41313;
+              color: #F41313;
+              text-align: center;
+              line-height: 30px;
+              margin: 8px 0;
+            }
+          }
+        }
+
+        .footPagination {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 12px;
+        }
+
+        .pagination {
+          .ant-pagination-item {
+            width: 50px;
+            height: 30px;
+          }
+        }
+
+        .ant-table-thead>tr>th {
+          background: #F5F5F5;
+        }
+      }
+
+      .agentNumber {
+        display: flex;
+        justify-content: flex-end;
+
+        .number {
+          display: flex;
+          cursor: pointer;
+
+          div {
+            border: 1px solid gray;
+            width: 25px;
+            text-align: center;
+            margin-left: 5px;
+            border-radius: 5px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .ant-form-item-label {
+    width: 90px;
+  }
+
+  .leve {
+    .ant-form-item-label {
+      width: 50px;
+    }
+  }
+
+  .name {
+    .ant-form-item-label {
+      width: 50px;
+    }
+  }
+
+  .agentTime {
+    .ant-form-item-label {
+      width: 120px;
+    }
+  }
+}

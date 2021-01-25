@@ -1,0 +1,40 @@
+@import "../../common/global.less";
+.addDownReason{
+  padding :20px;
+  background: #ffffff;
+  .title{
+    font-size: 20px;
+    color: #393D49;
+    &::before{
+      content: '.';
+      color: #2761E7;
+      width: 4px;
+      height: 21px;
+      background: #2761E7;
+      margin-right: 10px;
+    }
+  }
+  .reasonBox{
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .context{
+      display: flex;
+      align-items: flex-end;
+      .addReason{
+        line-height: 18px;
+      }
+      .inputReason{
+        outline: none;
+        border: none;
+        border-bottom: 1px solid gray;
+        border-radius: 0;
+      }
+    }
+  }
+  .button{
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+}

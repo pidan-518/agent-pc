@@ -1,0 +1,65 @@
+@import "../../common/global.less";
+
+#teacher-detail {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 7px;
+
+  .teacher-detail-box {
+    margin-top: 20px;
+
+    .teacher-img {
+      .setSize(137px, 190px);
+      border-radius: 4px;
+    }
+
+    .course {
+      margin-top: 20px;
+
+      .course-title {
+        font-weight: bold;
+      }
+    }
+
+    .ant-picker-calendar-header .ant-picker-calendar-mode-switch {
+      display: none;
+    }
+
+    .reserve-times {
+      &:extend(#teacher-detail .teacher-detail-box .course);
+
+      .reserve-title {
+        &:extend(#teacher-detail .teacher-detail-box .course .course-title);
+      }
+    }
+
+    .active {
+      .setSize(5px, 5px);
+      background-color: #1890ff;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+
+    .time-period-list {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      justify-content: flex-start;
+      margin: 0;
+
+      .list-item {
+        cursor: pointer;
+        border: 1px solid #707070;
+        text-align: center;
+        padding: 0px 5px;
+        border-radius: 2px;
+        margin: 0px 5px 10px 0px;
+      }
+
+      .list-item-ac {
+        border: 1px solid #1890ff;
+        color: #1890ff;
+      }
+    }
+  }
+}

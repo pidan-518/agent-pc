@@ -1,0 +1,191 @@
+@import '../../common/global.less';
+
+#cash {
+  padding: 41px;
+  background-color: #fff;
+
+  .header {
+    height: 24px;
+    overflow: hidden;
+
+    .icon {
+      width: 4px;
+      height: 21px;
+      margin-top: 1px;
+      margin-right: 8px;
+      background-color: #2761e7;
+      display: inline-block;
+    }
+
+    .headerName {
+      height: 24px;
+      line-height: 24px;
+      font-size: 20px;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+  .search {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+    padding: 36px 0 20px;
+
+    .form_item {
+      width: 480px;
+      display: flex;
+      justify-content: center;
+
+      label {
+        width: 100px;
+        justify-content: flex-end;
+      }
+
+      .ant-form-item-control {
+        flex: none;
+        width: 250px;
+      }
+    }
+
+    .btn_area {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: 5px;
+
+      .submit {
+        margin-right: 20px;
+      }
+
+      .export {
+        background-color: #4DB845;
+        margin-left: 20px;
+        color: #fff;
+
+        &:hover {
+          border-color: #4DB845;
+          background-color: #6ac464;
+        }
+      }
+
+      .reset{
+        margin-left: 38px;
+      }
+    }
+  }
+
+  .cashTable {
+    margin-top: 30px;
+
+    .pageSizeRadio {
+      display: block;
+      float: right;
+      margin-bottom: 10px;
+
+      .optionName {
+        font-size: 16px;
+        color: #4f4f4f;
+      }
+
+      .ant-radio-button-wrapper {
+        border-radius: 3px;
+        margin-right: 12px;
+      }
+    }
+
+    // 表格
+    .applyList {
+      border: 1px solid rgb(236, 236, 236);
+
+      /deep/ .note {
+        text-align: center;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        white-space: pre-wrap;
+        overflow: hidden;
+        vertical-align: middle;
+      }
+
+      // 覆盖antd原生样式
+      /deep/ .btnArea {
+        width: 100%;
+
+        button {
+          margin: 0 auto;
+          display: block;
+          width: 100%;
+          max-width: 119px;
+          height: 31px;
+          // border-color: #f41313;
+          border-radius: 5px;
+          // color: #f41313;
+        }
+      }
+
+      /deep/.ant-pagination{
+        padding-right: 20px;
+      }
+    }
+  }
+}
+
+// 模态框
+.modal {
+  .ant-modal-body {
+    padding-bottom: 20px;
+
+    .detail {
+      margin-bottom: 15px;
+
+      .item {
+        // min-height: 34px;
+        line-height: 34px;
+        font-size: 16px;
+
+        .Options {
+          min-height: 34px;
+          display: inline-block;
+          width: 90px;
+          text-align: right;
+          margin-right: 5px;
+          vertical-align: top;
+        }
+
+        .content{
+          width: 340px;
+          display: inline-block;
+          min-height: 34px;
+          word-break:break-all;
+          vertical-align: top;
+        }
+      }
+    }
+    .tip {
+      display: block;
+      font-size: 16px;
+      color: red;
+      margin-bottom: -10px;
+    }
+
+    // 驳回
+    .reason{
+      display: flex;
+
+      .title{
+        width: 90px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 16px;
+      }
+      
+      .input{
+        flex: 1;
+        height: 100px;
+      }
+    }
+  }
+}

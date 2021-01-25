@@ -1,0 +1,98 @@
+@import '../../common/global.less';
+
+#Statistics {
+  .mainArea {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+
+    .mainDetail {
+      margin-top: 25px;
+      padding: 20px 0px;
+      background-color: #1473e6;
+      display: flex;
+      justify-content: space-around;
+      color: #fff;
+
+      .DetailArea {
+        width: auto;
+        padding: 15px 0px;
+        text-align: center;
+
+        .DetailName {
+          font-size: 16px;
+          display: block;
+        }
+
+        .DetailData {
+          font-size: 20px;
+          display: block;
+        }
+      }
+    }
+
+    .lastMonth {
+      background: none;
+      // color: #000;
+      // border: 2px solid #1473e6;
+      padding: 5px 0px;
+
+      .DetailArea2 {
+        width: 339px;
+        height: 109px;
+        background-color: #F41313;
+        padding: 15px 0px;
+        text-align: center;
+
+        .DetailName2 {
+          margin-top: 10px;
+          width: 100%;
+          font-size: 16px;
+          display: block;
+        }
+
+        .DetailData2 {
+          width: 100%;
+          font-size: 20px;
+          display: block;
+        }
+      }
+    }
+
+    // 自定义标题
+    .chartHeader {
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .name {
+        .icon {
+          width: 4px;
+          height: 21px;
+          margin-top: 1px;
+          margin-right: 8px;
+          background-color: #2761e7;
+          display: inline-block;
+        }
+
+        .headerName {
+          height: 24px;
+          line-height: 24px;
+          font-size: 20px;
+          display: inline-block;
+          vertical-align: top;
+        }
+      }
+
+      // 日期筛选
+      .datePick {
+        width: auto;
+
+        .search_btn {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

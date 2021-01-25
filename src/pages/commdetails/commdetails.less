@@ -1,0 +1,90 @@
+.commdetails{
+  background: #ffffff;
+  padding: 20px;
+  /deep/ .ant-table-cell{
+    text-align: center;
+  }
+  /deep/ .ant-pagination{
+    background: #ffffff;
+    padding: 20px;
+    text-align: right;
+  }
+  .title{
+    font-weight: bold;
+    font-size: 20px;
+    &::before{
+      content: ' ';
+      width: 4px;
+      height: 14px;
+      margin-right: 6px;
+      background: #1890ff;
+      display: inline-block;
+    }
+  }
+  .top{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    .top-text{
+      flex-basis: 30%;
+      display: flex;
+      margin: 4px 0;
+      .text{
+        width: 110px;
+        margin-right: 8px;
+        text-align: right;
+      }
+    }
+  }
+  .head-div{
+    text-align: center;
+  }
+  .inp-div{
+    display: inline-flex;
+    align-items: center;
+    width: 30%;
+    height: 35px;
+    // margin-right: 50px;
+    margin-bottom: 20px;
+    &.time{
+      width: 40%;
+    }
+    /deep/ .ant-select{
+      width: 50%;
+      margin-left: 20px;
+    }
+    .text{
+      width: 100px;
+      text-align: right;
+    }
+    &.long{
+      // width: 38%;
+      .text{
+        margin-right: 10px;
+      }
+      .inp{
+        width: 26%;
+        margin:0 10px;
+      }
+    }
+    input{
+      width: 60%;
+      margin-left: 20px;
+    }
+    /deep/ .ant-picker{
+      width: 60%;
+      margin-left: 20px;
+    }
+  }
+  .btn-div{
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  /deep/ .ant-btn{
+    margin: 0 10px;
+  }
+  .green{
+    background: #67C23A;
+    color: #ffffff;
+  }
+}

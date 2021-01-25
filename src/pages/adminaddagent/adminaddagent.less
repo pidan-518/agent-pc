@@ -1,0 +1,92 @@
+@import '../../common/global.less';
+
+#Adminaddagent {
+  padding: 41px;
+  background-color: #fff;
+
+  .header {
+    height: 24px;
+    overflow: hidden;
+
+    .icon {
+      width: 4px;
+      height: 21px;
+      margin-top: 1px;
+      margin-right: 8px;
+      background-color: #2761e7;
+      display: inline-block;
+    }
+
+    .headerName {
+      height: 24px;
+      line-height: 24px;
+      font-size: 20px;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+  .addAgentBtn {
+    margin-top: 32px;
+  }
+
+  // 搜索框
+  .search {
+    margin-top: 30px;
+    height: 36px;
+    box-sizing: content-box;
+    background-color: #f5f5f5;
+    padding: 36px 0;
+    overflow: hidden;
+
+    .center {
+      width: 914px;
+      margin: 0 auto;
+    }
+
+    .form_item {
+      width: 335px;
+      display: inline-block;
+      line-height: 36px;
+      margin-bottom: 0;
+
+      label {
+        display: inline-block;
+        width: 80px;
+      }
+
+      .ant-form-item-control {
+        display: inline-block;
+        width: 250px;
+      }
+    }
+
+    .form_item2 {
+      width: 150px;
+      line-height: 36px;
+      display: inline-block;
+      margin-left: 40px;
+
+      .submit_btn {
+        width: 64px;
+        display: inline-block;
+      }
+
+      .reset{
+        display: inline-block;
+        margin-left: 20px;
+      }
+    }
+  }
+
+  // 新增代理人列表
+  .agentList {
+    margin-top: 30px;
+    border: 1px solid rgb(236, 236, 236);
+    padding: 0;
+
+    /deep/.ant-pagination {
+      padding-right: 20px;
+    }
+  }
+}

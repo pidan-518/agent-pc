@@ -1,0 +1,54 @@
+@import "../../common/global.less";
+
+.marketing {
+  padding: 20px;
+  background: #ffffff;
+
+  .headTitle {
+    font-size: 20px;
+    color: #393D49;
+
+    &::before {
+      content: '.';
+      color: #2761E7;
+      width: 4px;
+      height: 21px;
+      background: #2761E7;
+      margin-right: 10px;
+    }
+  }
+
+  .poster {
+    display: flex;
+
+    .investmentPoster {
+      margin-right: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .foot {
+        display: flex;
+        justify-content: space-between;
+        // .investmentPoster {
+        //   margin-right: 0;
+        //   margin-top: 10px
+        // }
+      }
+    }
+    .promotionPoster {
+      margin-right: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .foot {
+        display: flex;
+        justify-content: space-between;
+          // margin-top: 10px      
+      }
+    }
+    .context{
+      height: 400px;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@import "../../common/global.less";
+
+#teacher-list {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 7px;
+  position: relative;
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* margin-top: 20px; */
+    min-height: 723px;
+    padding: 0;
+    margin-bottom: 0;
+
+    .list-item {
+      margin: 20px 32px 0px;
+
+      .item-img {
+        cursor: pointer;
+        .setSize(137px, 190px);
+        margin: 0 auto;
+
+        img {
+          .setSize(100%, 100%);
+          border-radius: 4px;
+        }
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7px;
+        width: 150px;
+
+        .ant-btn-sm {
+          padding: 0px 5px;
+        }
+      }
+    }
+
+    .add-teacher {
+      &:extend(#teacher-list .list .list-item .item-img);
+      margin-top: 20px;
+      margin-left: 32px;
+
+      .add-teacher-icon {
+        &:extend(#teacher-list .list .list-item .item-img img);
+      }
+    }
+  }
+
+  .pagination {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    margin-top: 20px;
+    /* text-align: center; */
+  }
+}

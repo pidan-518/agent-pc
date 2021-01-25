@@ -1,0 +1,158 @@
+.pc-installproxy {
+  padding: 24px;
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+}
+.pc-installproxy .header {
+  height: 24px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.pc-installproxy .header .icon {
+  width: 4px;
+  height: 21px;
+  margin-top: 1px;
+  margin-right: 8px;
+  background-color: #2761e7;
+  display: inline-block;
+}
+.pc-installproxy .header .headerName {
+  height: 24px;
+  line-height: 24px;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: top;
+}
+.pc-installproxy .ant-form .content {
+  margin-left: 30px;
+}
+.pc-installproxy .ant-form .content .content-levelName {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.pc-installproxy .ant-form .content .content-levelName .ant-form-item-label {
+  flex: 0.2;
+  text-align: right;
+  margin-left: 3px;
+}
+.pc-installproxy .ant-form .content .content-levelName .levelName-content {
+  width: 30%;
+}
+.pc-installproxy .ant-form .content .content-level {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.pc-installproxy .ant-form .content .content-level .ant-form-item-label {
+  flex: 0.2;
+  text-align: right;
+}
+.pc-installproxy .ant-form .content .content-level .ant-input-number {
+  width: 30%;
+}
+.pc-installproxy .ant-form .content .content-upgrade-cost {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.pc-installproxy .ant-form .content .content-upgrade-cost .ant-form-item-label {
+  flex: 0.2;
+  text-align: right;
+}
+.pc-installproxy .ant-form .content .content-upgrade-cost .ant-form-item-control-input {
+  width: 30%;
+}
+.pc-installproxy .ant-form .content .content-upgrade-firstNum {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.pc-installproxy .ant-form .content .content-upgrade-firstNum .ant-form-item-label {
+  flex: 0.2;
+  text-align: right;
+}
+.pc-installproxy .ant-form .content .content-upgrade-firstNum .ant-form-item-control-input {
+  width: 30%;
+}
+.pc-installproxy .ant-form .content .content-upgrade-teamNum {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.pc-installproxy .ant-form .content .content-upgrade-teamNum .ant-form-item-label {
+  flex: 0.2;
+  text-align: right;
+}
+.pc-installproxy .ant-form .content .content-upgrade-teamNum .ant-form-item-control-input {
+  width: 30%;
+}
+.pc-installproxy .ant-form .content .content-upgrade-monthTurnover {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.pc-installproxy .ant-form .content .content-upgrade-monthTurnover .ant-form-item-label {
+  flex: 0.2;
+  text-align: right;
+}
+.pc-installproxy .ant-form .content .content-upgrade-monthTurnover .ant-form-item-control-input {
+  width: 30%;
+}
+.pc-installproxy .ant-form .content .content-upgrade-continuousMonth {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.pc-installproxy .ant-form .content .content-upgrade-continuousMonth .ant-form-item-label {
+  flex: 0.2;
+  text-align: right;
+}
+.pc-installproxy .ant-form .content .content-upgrade-continuousMonth .ant-form-item-control-input {
+  width: 30%;
+}
+.pc-installproxy .ant-form .content .content-month {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.pc-installproxy .ant-form .content .content-month .ant-form-item-label {
+  flex: 0.2;
+  text-align: right;
+}
+.pc-installproxy .ant-form .content .content-month .ant-form-item-control-input {
+  width: 30%;
+}
+.pc-installproxy .ant-form .select-item {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.pc-installproxy .ant-form .select-item .ant-form-item-label {
+  flex: 0.2;
+  text-align: right;
+}
+.pc-installproxy .ant-form .select-item .ant-select {
+  width: 30%;
+}
+.pc-installproxy .ant-form .installProxy-btn {
+  margin-left: 30px;
+  display: flex;
+}
+.pc-installproxy .ant-form .installProxy-btn .btn-div {
+  text-align: right;
+  flex: 0.21;
+}
+.pc-installproxy .ant-form .installProxy-btn .null {
+  width: 30%;
+}

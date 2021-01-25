@@ -1,0 +1,87 @@
+@import "../../common/global.less";
+
+.basicSettings {
+  padding: 20px;
+  background: #ffffff;
+
+  li,
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  .title{
+    font-size: 20px;
+    color: #393D49;
+    &::before{
+      content: '.';
+      color: #2761E7;
+      width: 4px;
+      height: 21px;
+      background: #2761E7;
+      margin-right: 10px;
+    }
+  }
+  .addDownReason{
+    padding-left: 0;
+    .ant-btn{
+    // width: 125px;
+    height: 36px;
+    color: #ffffff;
+    }
+    
+  }
+  .reasonItem {
+    .reasonContext{
+      display: inline-block;
+      min-width: 200px;
+    }
+    & :nth-child(2) {
+      padding: 0 5px;
+    }
+
+    .cancel {
+      margin-left: 23px;
+      cursor: pointer;
+    }
+
+    .modify {
+      padding-left: 33px;
+      cursor: pointer;
+    }
+  }
+}
+// .staffModal{
+//     .ant-modal-content{
+//       .ant-modal-body{
+//         .ant-input{
+//           border: none; 
+//           border-bottom: 1px solid rgb(0, 0, 0);
+//         }
+//         .ant-input:focus {
+//           border: none;
+//           border-bottom: 1px solid rgb(228, 17, 17);
+//           box-shadow: none;
+//       }
+//       }
+//     } 
+// }
+.staffModal{
+  .inputBox {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 3px;
+    .inputReason {
+      width:100%;
+      border:none
+    }
+  }
+}
+
+//  .ant-modal-content{
+
+//     .ant-modal-body{
+//       .ant-input{
+//         border: none; 
+//         // border-bottom: 1px solid rgb(0, 0, 0);
+//       }
+//     }
+//   } 

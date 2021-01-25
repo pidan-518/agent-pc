@@ -1,0 +1,68 @@
+.commission{
+  background: #ffffff;
+  padding: 20px;
+  /deep/ .ant-table-cell{
+    text-align: center;
+  }
+  /deep/ .ant-pagination{
+    background: #ffffff;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  .head-div{
+    text-align: center;
+  }
+  .inp-div{
+    display: inline-flex;
+    align-items: center;
+    width: 26%;
+    height: 35px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    /deep/ .ant-select{
+      width: 60%;
+      margin-left: 20px;
+    }
+    .text{
+      width: 100px;
+      text-align: right;
+    }
+    &.long{
+      // width: 38%;
+      .text{
+        margin-right: 10px;
+      }
+      .inp{
+        width: 26%;
+        margin:0 10px;
+      }
+    }
+    input{
+      width: 60%;
+      margin-left: 20px;
+      -moz-appearance:textfield;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        appearance: none; 
+        margin: 0; 
+    }
+    /deep/ .ant-picker{
+      width: 60%;
+      margin-left: 20px;
+    }
+  }
+  .btn-div{
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  /deep/ .ant-btn{
+    margin: 0 10px;
+  }
+  .green{
+    background: #67C23A;
+    color: #ffffff;
+  }
+}

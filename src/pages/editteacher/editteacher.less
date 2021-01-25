@@ -1,0 +1,89 @@
+@import "../../common/global.less";
+
+#edit-teacher {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 7px;
+
+  .ant-spin-nested-loading > div > .ant-spin {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .avatar {
+    .setSize(135px, 188px);
+  }
+
+  .active {
+    .setSize(5px, 5px);
+    background-color: #1890ff;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .edit-teacher-box {
+    margin-top: 20px;
+    width: 300px;
+
+    .ant-form-item textarea.ant-input {
+      resize: none;
+    }
+
+    .ant-upload.ant-upload-select-picture-card {
+      .setSize(137px, 190px);
+    }
+
+    .ant-picker-calendar-header .ant-picker-calendar-mode-switch {
+      display: none;
+    }
+
+    .upload-btn {
+      .setSize(137px, 190px);
+
+      .upload-icon {
+        .setSize(100%, 100%);
+      }
+    }
+
+    .upload-warn {
+      color: #ccc;
+    }
+
+    .site-calendar {
+      width: 300px;
+    }
+
+    .reservation {
+      .site-calendar {
+        width: 300px;
+      }
+
+      .time-period-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: flex-start;
+
+        .list-item {
+          cursor: pointer;
+          border: 1px solid #707070;
+          text-align: center;
+          padding: 0px 5px;
+
+          border-radius: 2px;
+          margin: 0px 5px 10px 0px;
+        }
+
+        .list-item-ac {
+          border: 1px solid #1890ff;
+          color: #1890ff;
+        }
+      }
+    }
+
+    .submit {
+      margin-top: 20px;
+    }
+  }
+}

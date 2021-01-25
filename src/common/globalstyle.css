@@ -1,0 +1,86 @@
+.ant-spin-dot-item {
+  background-color: #E76692;
+}
+.ant-spin {
+  color: #E76692;
+}
+body {
+  font-family: yahei;
+  color: black;
+  letter-spacing: 1px;
+}
+div,
+form,
+p,
+span,
+a,
+button,
+input,
+ol,
+ul,
+li {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: none;
+}
+ul {
+  list-style: none;
+}
+p {
+  margin-bottom: 0;
+}
+a:hover {
+  color: inherit;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+input,
+textarea,
+select {
+  outline: none;
+  border: solid 1px #aaa;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+textarea {
+  resize: none;
+}
+select {
+  appearance: none;
+}
+hr {
+  border-style: solid;
+  border-bottom: none;
+  border-color: #ddd;
+}
+.selectWrap {
+  position: relative;
+  width: fit-content;
+}
+.selectArrow {
+  position: absolute;
+  top: 6px;
+  right: 15px;
+}
+.currency::before {
+  content: "HK$ ";
+}
+input[type=checkbox] {
+  cursor: pointer;
+}
+.mask {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.35;
+}

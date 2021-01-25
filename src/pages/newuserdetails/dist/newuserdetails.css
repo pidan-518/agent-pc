@@ -1,0 +1,151 @@
+.pc-newuserdetails {
+  padding: 24px;
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+}
+.pc-newuserdetails .header {
+  height: 24px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.pc-newuserdetails .header .icon {
+  width: 4px;
+  height: 21px;
+  margin-top: 1px;
+  margin-right: 8px;
+  background-color: #2761e7;
+  display: inline-block;
+}
+.pc-newuserdetails .header .headerName {
+  height: 24px;
+  line-height: 24px;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: top;
+}
+.pc-newuserdetails .content-header .user-item {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  line-height: 30px;
+}
+.pc-newuserdetails .content-header .user-item .first {
+  width: 33.33333%;
+}
+.pc-newuserdetails .content-header .user-item .first .userId {
+  display: flex;
+}
+.pc-newuserdetails .content-header .user-item .first .userId .name {
+  flex: 0.5;
+  text-align: right;
+}
+.pc-newuserdetails .content-header .user-item .first .userId .content {
+  flex: 1;
+}
+.pc-newuserdetails .content-header .user-item .first .username {
+  display: flex;
+}
+.pc-newuserdetails .content-header .user-item .first .username .name {
+  flex: 0.5;
+  text-align: right;
+}
+.pc-newuserdetails .content-header .user-item .first .username .content {
+  flex: 1;
+}
+.pc-newuserdetails .content-header .user-item .first .phonenumber {
+  display: flex;
+}
+.pc-newuserdetails .content-header .user-item .first .phonenumber .name {
+  flex: 0.5;
+  text-align: right;
+}
+.pc-newuserdetails .content-header .user-item .first .phonenumber .content {
+  flex: 1;
+}
+.pc-newuserdetails .content-header .user-item .second {
+  width: 33.33333%;
+}
+.pc-newuserdetails .content-header .user-item .second .totalprice {
+  display: flex;
+}
+.pc-newuserdetails .content-header .user-item .second .totalprice .name {
+  flex: 0.5;
+  text-align: right;
+}
+.pc-newuserdetails .content-header .user-item .second .totalprice .content {
+  flex: 1;
+}
+.pc-newuserdetails .content-header .user-item .second .price {
+  display: flex;
+}
+.pc-newuserdetails .content-header .user-item .second .price .name {
+  flex: 0.5;
+  text-align: right;
+}
+.pc-newuserdetails .content-header .user-item .second .price .content {
+  flex: 1;
+}
+.pc-newuserdetails .content-header .user-item .second .time {
+  display: flex;
+}
+.pc-newuserdetails .content-header .user-item .second .time .name {
+  flex: 0.5;
+  text-align: right;
+}
+.pc-newuserdetails .content-header .user-item .second .time .content {
+  flex: 1;
+}
+.pc-newuserdetails .content-header .user-item .third {
+  width: 33.33333%;
+}
+.pc-newuserdetails .content-header .user-item .third .withdrawal {
+  display: flex;
+}
+.pc-newuserdetails .content-header .user-item .third .withdrawal .name {
+  flex: 0.5;
+  text-align: right;
+}
+.pc-newuserdetails .content-header .user-item .third .withdrawal .content {
+  flex: 1;
+}
+.pc-newuserdetails .content-header .user-item .third .freeze {
+  display: flex;
+}
+.pc-newuserdetails .content-header .user-item .third .freeze .name {
+  flex: 0.5;
+  text-align: right;
+}
+.pc-newuserdetails .content-header .user-item .third .freeze .content {
+  flex: 1;
+}
+.pc-newuserdetails .content-header .complete-time {
+  margin: 0 50px;
+  margin-top: 25px;
+}
+.pc-newuserdetails .content-header .complete-time .time1 {
+  width: 150px;
+}
+.pc-newuserdetails .content-header .complete-time .text2 {
+  margin: 0 5px;
+}
+.pc-newuserdetails .content-header .complete-time .time2 {
+  width: 150px;
+}
+.pc-newuserdetails .content-header .btn {
+  margin: 0 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap-reverse;
+  width: 33.33%;
+  margin-left: 4.5%;
+}
+.pc-newuserdetails .content-header .btn .export {
+  background-color: #67C23A;
+  color: #fff;
+  margin-left: 10px;
+}
+.pc-newuserdetails .content-header .btn .export:hover {
+  border-color: #7dc957;
+  background-color: #7dc957;
+}

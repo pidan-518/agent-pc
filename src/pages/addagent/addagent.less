@@ -1,0 +1,72 @@
+@import '../../common/global.less';
+
+#Addagent {
+  background-color: #fff;
+  padding: 41px;
+
+  .header {
+    height: 24px;
+    overflow: hidden;
+
+    .icon {
+      width: 4px;
+      height: 21px;
+      margin-top: 1px;
+      margin-right: 8px;
+      background-color: #2761e7;
+      display: inline-block;
+    }
+
+    .headerName {
+      height: 24px;
+      line-height: 24px;
+      font-size: 20px;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+  .addFrom {
+    margin-top: 30px;
+    max-width: 340px;
+
+    .ant-form-item-label > label {
+      width: 120px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .form_item {
+      max-width: 390px;
+      min-height: 32px;
+      margin-bottom: 24px;
+      display: flex;
+
+      .Captcha {
+        width: 238px;
+        height: 32px;
+        margin-bottom: 0;
+        // overflow: hidden;
+
+        .inputCaptcha {
+          min-width: 102px;
+        }
+      }
+
+      .getCaptcha {
+        // width: 102px;
+        flex: 1;
+        padding: 0;
+
+        span {
+          text-align: center;
+        }
+      }
+    }
+
+    .button {
+      margin-top: 30px;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.pc-newuser {
+  padding: 24px;
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+}
+.pc-newuser .header {
+  height: 24px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.pc-newuser .header .icon {
+  width: 4px;
+  height: 21px;
+  margin-top: 1px;
+  margin-right: 8px;
+  background-color: #2761e7;
+  display: inline-block;
+}
+.pc-newuser .header .headerName {
+  height: 24px;
+  line-height: 24px;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: top;
+}
+.pc-newuser .content-header {
+  margin-bottom: 30px;
+  height: 130px;
+}
+.pc-newuser .content-header .user {
+  display: flex;
+}
+.pc-newuser .content-header .user .user-item {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #f5f5f5a8;
+  padding-top: 20px;
+}
+.pc-newuser .content-header .user .user-item .item {
+  width: 33.33%;
+}
+.pc-newuser .content-header .user .user-item .btn {
+  width: 33.33%;
+  margin-left: 4.5%;
+}
+.pc-newuser .content-header .user .user-item .btn .export {
+  background-color: #67C23A;
+  color: #fff;
+}
+.pc-newuser .content-header .user .user-item .btn .export:hover {
+  border-color: #7dc957;
+  background-color: #7dc957;
+}
